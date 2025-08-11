@@ -63,3 +63,6 @@ Frontend: Angular
 Banco de Dados: PostgreSQL (configurável)
 
 Testes: xUnit, Moq
+
+Swagger API:
+http://localhost:5000/swagger/index.html
