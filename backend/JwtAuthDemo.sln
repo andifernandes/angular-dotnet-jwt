@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.API", "src\JwtAuthDemo.API\JwtAuthDemo.API.csproj", "{F1C0A6B6-A14C-4CAB-91B7-1CB7A8E20F95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo.API.Tests", "JwtAuthDemo.API.Tests\JwtAuthDemo.API.Tests.csproj", "{5F80F2DB-79CE-41E6-93A8-A1F4E4EB9FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F1C0A6B6-A14C-4CAB-91B7-1CB7A8E20F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C0A6B6-A14C-4CAB-91B7-1CB7A8E20F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C0A6B6-A14C-4CAB-91B7-1CB7A8E20F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F80F2DB-79CE-41E6-93A8-A1F4E4EB9FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F80F2DB-79CE-41E6-93A8-A1F4E4EB9FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F80F2DB-79CE-41E6-93A8-A1F4E4EB9FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F80F2DB-79CE-41E6-93A8-A1F4E4EB9FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
