@@ -14,6 +14,21 @@ Este repositório contém a solução completa do JwtAuthDemo, com o backend, fr
 
 ## Como rodar
 
+### Banco de Dados PostgreSQL
+```bash
+docker run -d   --name jwt-postgres   -e POSTGRES_USER=andi   -e POSTGRES_PASSWORD=suaSenhaSegura123   -e POSTGRES_DB=jwtAuthDemoDb   -p 5432:5432   postgres
+```
+```bash
+docker exec -it jwt-postgres bash -c "echo \"listen_addresses='*'\" >> /var/lib/postgresql/data/postgresql.conf"
+```
+Acessar o banco pelo terminal
+   ```bash
+   psql -h localhost -U andi -d jwtAuthDemoDb
+   ```
+Entrar no bash do docker
+   ```bash
+   docker exec -it jwt-postgres bash
+   ```
 ### Backend
 
 1. Acesse a pasta do backend:
