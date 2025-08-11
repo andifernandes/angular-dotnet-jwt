@@ -9,7 +9,7 @@ Este repositório contém a solução completa, com o backend, frontend, testes 
 - `/frontend/src/main.ts` — Frontend em Angular (configurado para consumir o backend).
 - `/backend/src/JwtAuthDemo.API` — Backend em ASP.NET Core 8.0 com autenticação JWT.
 - `/backend/JwtAuthDemo.API.Tests` — Testes unitários e de integração para o backend.
-
+dotnet ef migrations add InitialCreate
 ---
 
 ## Como rodar
@@ -54,6 +54,15 @@ ou docker
    ```bash
    docker run -p 5000:5000 jwt-auth-demo-api
    ```
+
+### Migrações do Banco de Dados(inicialiar banco de dados)
+   ```bash
+   dotnet ef migrations add InitialCreate
+   ```
+   ```bash
+   dotnet ef database update
+   ```
+
 ### Swagger API:
    ```bash
    http://localhost:5000/swagger/index.html
