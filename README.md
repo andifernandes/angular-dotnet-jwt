@@ -55,7 +55,7 @@ ou docker
    docker run -p 5000:5000 jwt-auth-demo-api
    ```
 
-### Migrações do Banco de Dados(inicialiar banco de dados)
+### Migrações do Banco de Dados(inicializar banco de dados)
    ```bash
    dotnet ef migrations add InitialCreate
    ```
