@@ -30,10 +30,10 @@ O backend estará disponível em http://localhost:5000 (ou a porta configurada).
 Para acessar a documentação Swagger, acesse: http://localhost:5000/swagger
 
 ou docker
-```bash
-docker build -t jwt-auth-demo-api .
-```bash
-docker run -p 5000:5000 jwt-auth-demo-api
+   ```bash
+   docker build -t jwt-auth-demo-api .
+   ```bash
+   docker run -p 5000:5000 jwt-auth-demo-api
 
 Swagger API:
 ```bash
