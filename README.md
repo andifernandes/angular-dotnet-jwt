@@ -39,12 +39,12 @@ ou docker
    ```bash
    docker run -p 5000:5000 jwt-auth-demo-api
    ```
-Swagger API:
+### Swagger API:
    ```bash
    http://localhost:5000/swagger/index.html
    ```
 
-Frontend
+### Frontend
 Acesse a pasta do frontend:
 
    ```bash
@@ -67,7 +67,7 @@ ou
 
 O frontend estará disponível em http://localhost:4200
 
-Testes
+### Testes
 Acesse a pasta dos testes do backend:
 
    ```bash
