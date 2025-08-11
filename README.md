@@ -1,4 +1,4 @@
-# Arquitetura Completa Angular, Dot.Net, Jwt e PostgreSQL - Projeto Completo com Docker
+# Arquitetura Completa Angular 19, Dot.Net 8, Jwt e PostgreSQL 13 - Projeto Completo com Docker
 
 Este repositório contém a solução completa, com o backend, frontend e os testes automatizados e banco de dados.
 
