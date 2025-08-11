@@ -1,6 +1,6 @@
 # Angular Dot.Net Jwt Login - Projeto Completo
 
-Este repositório contém a solução completa do JwtAuthDemo, com o backend, frontend e os testes automatizados.
+Este repositório contém a solução completa, com o backend, frontend e os testes automatizados e banco de dados.
 
 ---
 
